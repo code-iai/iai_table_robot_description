@@ -1,9 +1,17 @@
+# DEPRECATED
+
+This ROS package was moved to the repository [iai_robots](https://github.com/code-iai/iai_robots.git).
+
+---
+
 # iai_table_robot_description
+
 URDF description of the table-mounted UR5 robots in the lab of the IAI.
 
 ![rviz view](https://raw.githubusercontent.com/code-iai/iai_table_robot_description/master/docs/iai_table_robot.png)
 
 ## Installation
+
 Using ```catkin_tools``` and ```wstool``` in a new workspace for ```ROS Kinetic```:
 ```
 source /opt/ros/kinetic/setup.bash         # start using ROS Kinetic
@@ -22,6 +30,7 @@ source ~/ws/devel/setup.bash               # source new overlay
 ```
 
 ## A preview in RVIZ
+
 Use the accompanying ```display.launch``` to get a view the robot in ```rviz```:
 ```
 roslaunch iai_table_robot_description display.launch
